@@ -1,22 +1,8 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logo-image {
+	text-indent: -9999px;
+	background-image: url(../img/header/LOGO-Header@2x.png);
+	width: 316px;
+	height: 165px;
+	background-size: 316px 165px;
+	margin-top: 10px;
+}
