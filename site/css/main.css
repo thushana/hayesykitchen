@@ -1,10 +1,11 @@
 .logo-image {
-	text-indent: -9999px;
 	background-image: url(../img/header/LOGO-Header@2x.png);
-	width: 316px;
-	height: 165px;
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: 316px 165px;
-	margin-top: 10px;
+	height: 165px;
+	text-indent: -9999px;
+	margin: 10px 0 10px 0;
 }
 
 li a {
@@ -19,6 +20,12 @@ li a:hover {
 }
 .nav-pills {
 	background-color: white;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 body {
