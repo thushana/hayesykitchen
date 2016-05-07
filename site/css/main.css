@@ -1,11 +1,37 @@
+/* BOOTSTRAP */
 .container-fluid {
 	padding: 0px;
 }
 
+/* CUSTOM */
 .main-layout {
-	margin: 33px;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
+.hk-header {
+	padding: 15px 0 15px 0;
+}
+.hk-header-items {
+	height:150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+.hk-header-nav {
+	font-size: 16px;
+	letter-spacing: 3px;
+}
+.hk-header-nav a{
+	color: #666666;
+}
+.hk-header-nav a:hover{
+	color: black;
+}
+
+
+/*
 .box-lead {
 	width: 100%;
 	min-height: 900px;
@@ -35,3 +61,4 @@
 	text-transform: uppercase;
 	opacity: 0.66;
 }
+*/
