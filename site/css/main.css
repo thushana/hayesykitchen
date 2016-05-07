@@ -1,35 +1,37 @@
-.logo-image {
-	background-image: url(../img/header/LOGO-Header@2x.png);
+.container-fluid {
+	padding: 0px;
+}
+
+.main-layout {
+	margin: 33px;
+}
+
+.box-lead {
+	width: 100%;
+	min-height: 900px;
+	max-height: 1500px;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 316px 165px;
-	height: 165px;
-	text-indent: -9999px;
-	margin: 10px 0 10px 0;
+	background-attachment: fixed;
+	background-position: center center;
+	position: relative;
 }
 
-li a {
-	font-size: 18px;
-	font-weight: 800;
+.post-set{
+	padding: 33px;
+	position: absolute;
+	bottom: 0;
+}
+.post-category {
 	text-transform: uppercase;
-	color: black;
+	opacity: 0.66;
 }
-li a:hover {
-	color: black;
-	text-decoration: underline;
+.post-headline h2 {
+	font-size: 550%;
+	font-weight: 900;
+	margin: 0;
 }
-.nav-pills {
-	background-color: white;
-}
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
-
-body {
-	font-size: 20px;
-	line-height: 175%;
-	color: #202020;
+.post-date {
+	text-transform: uppercase;
+	opacity: 0.66;
 }
