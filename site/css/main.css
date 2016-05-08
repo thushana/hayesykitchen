@@ -60,7 +60,16 @@
 	padding-top: 20px;
 }
 .hk-post-leftrail {
-	border-left: 2px solid rgba(170,  130,  60, 0.5);
+	border-left: 2px solid rgba(170,  130,  60, 0.25);
+}
+.hk-post-rightrail {
+	border-right: 2px solid rgba(170,  130,  60, 0.25);
+}
+.hk-post-mainrail img {
+	width="100%";
+	height="auto";
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 .hk-text-category {
