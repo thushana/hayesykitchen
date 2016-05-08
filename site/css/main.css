@@ -2,6 +2,13 @@
 .container-fluid {
 	padding: 0px;
 }
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 
 /* CUSTOM */
 
@@ -14,7 +21,7 @@
 
 /* HEADER */
 .hk-header {
-	padding: 15px 0 15px 0;
+	padding: 20px 0 20px 0;
 }
 .hk-header-items {
 	height:150px;
@@ -42,8 +49,6 @@
     float: left;
     height: 0;
 }
-
- 
 .hk-image-lead img {
     width: 100%;
     height: 100%;
@@ -51,6 +56,43 @@
     left: 0;
 }
 
+.hk-post {
+	padding-top: 20px;
+}
+.hk-post-leftrail {
+	border-left: 2px solid rgba(170,  130,  60, 0.5);
+}
+
+.hk-text-category {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: rgba(170,  130,  60, 1);
+}
+.hk-text-headline {
+	font-size: 550%;
+	font-weight: 900;
+	color: black;
+	letter-spacing: -1px;
+}
+.hk-text-dateline {
+	padding: 20px 0 20px 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: grey;
+}
+.hk-text-body {
+	line-height: 35px;
+	letter-spacing: -0.072px;
+	font-size: 22px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.8)
+}
+.hk-text-body p {
+	padding-bottom: 10px;
+}
+p {
+	width: 75%;
+}
 
 /*
 .box-lead {
