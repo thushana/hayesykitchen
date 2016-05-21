@@ -8,6 +8,9 @@
   display: -ms-flexbox;
   display: flex;
 }
+hr {
+	opacity: .25;
+}
 
 
 /* CUSTOM */
@@ -31,6 +34,7 @@
 	text-transform: uppercase;
 }
 .site-header-nav {
+	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
 	font-size: 16px;
 	letter-spacing: 3px;
 }
@@ -60,10 +64,8 @@
 	padding-top: 20px;
 }
 .post-leftrail {
-	border-left: 2px solid rgba(125,  66,  0, 0.25);
-}
-.post-rightrail {
-	border-right: 2px solid rgba(125,  66,  0, 0.25);
+	border-left: 2px solid;
+	opacity: .25;
 }
 .post-mainrail img {
 	width="100%";
@@ -73,36 +75,39 @@
 }
 
 .post-text-category {
+	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: rgba(170,  130,  60, 1);
 }
 .post-text-headline {
+	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
 	font-size: 550%;
 	font-weight: 900;
 	color: black;
 	letter-spacing: -1px;
 }
 .post-text-dateline {
-	padding: 20px 0 20px 0;
+	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
+	padding: 20px 0 0px 0;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: grey;
 }
 .post-text-body {
+	font-family: "skolar", "georgia", serif;
 	line-height: 35px;
 	letter-spacing: -0.072px;
 	font-size: 22px;
 	font-weight: 400;
-	color: rgba(0, 0, 0, 0.8)
+	color: rgba(0, 0, 0, 0.8);
 }
 .post-text-body p {
 	padding-bottom: 10px;
 }
-p {
+.post-text p {
 	width: 75%;
 }
-.post-text-subsection {
+.post-text-recipe h2 {
 	font-weight: 900;
 	color: rgb(125,  66,  0);
 	padding-top: 50px;
@@ -114,7 +119,8 @@ p {
 	letter-spacing: -0.072px;
 	font-size: 22px;
 	font-weight: 400;
-	color: rgba(0, 0, 0, 0.8)
+	color: rgba(0, 0, 0, 0.8);
+	width: 66%;
 }
 
 /*
