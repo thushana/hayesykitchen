@@ -86,9 +86,18 @@ hr {
 	color: black;
 	letter-spacing: -1px;
 }
+.post-text-description {
+	font-family: "skolar", "georgia", serif;
+	line-height: 40px;
+	letter-spacing: -0.072px;
+	font-size: 40px;
+	font-weight: 100;
+	color: rgba(0, 0, 0, .8);
+	width: 75%;
+}
 .post-text-dateline {
 	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
-	padding: 20px 0 0px 0;
+	padding: 60px 0 0px 0;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: grey;
