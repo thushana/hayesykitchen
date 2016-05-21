@@ -60,10 +60,10 @@
 	padding-top: 20px;
 }
 .hk-post-leftrail {
-	border-left: 2px solid rgba(170,  130,  60, 0.25);
+	border-left: 2px solid rgba(125,  66,  0, 0.25);
 }
 .hk-post-rightrail {
-	border-right: 2px solid rgba(170,  130,  60, 0.25);
+	border-right: 2px solid rgba(125,  66,  0, 0.25);
 }
 .hk-post-mainrail img {
 	width="100%";
@@ -101,6 +101,20 @@
 }
 p {
 	width: 75%;
+}
+.hk-text-subsection {
+	font-weight: 900;
+	color: rgb(125,  66,  0);
+	padding-top: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.hk-text-recipe {
+	line-height: 25px;
+	letter-spacing: -0.072px;
+	font-size: 22px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.8)
 }
 
 /*
