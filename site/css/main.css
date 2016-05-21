@@ -45,6 +45,7 @@ hr {
 	color: black;
 }
 
+/* LEAD IMAGE */
 .leadimage {
 	margin: auto;
 	position: relative;
@@ -60,6 +61,7 @@ hr {
     left: 0;
 }
 
+/* POST MAIN */
 .post {
 	padding-top: 20px;
 }
@@ -74,6 +76,7 @@ hr {
 	padding-bottom: 40px;
 }
 
+/* POST TEXT */
 .post-text-category {
 	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
 	text-transform: uppercase;
@@ -117,6 +120,7 @@ hr {
 	width: 75%;
 }
 
+/* POST RECIPE */
 .post-text-recipe {
 	line-height: 25px;
 	letter-spacing: -0.072px;
@@ -136,34 +140,3 @@ hr {
 	padding-bottom: 0px;
 }
 
-/*
-.box-lead {
-	width: 100%;
-	min-height: 900px;
-	max-height: 1500px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center;
-	position: relative;
-}
-
-.post-set{
-	padding: 33px;
-	position: absolute;
-	bottom: 0;
-}
-.post-category {
-	text-transform: uppercase;
-	opacity: 0.66;
-}
-.post-headline h2 {
-	font-size: 550%;
-	font-weight: 900;
-	margin: 0;
-}
-.post-date {
-	text-transform: uppercase;
-	opacity: 0.66;
-}
-*/
