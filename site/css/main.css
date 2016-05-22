@@ -40,9 +40,11 @@ hr {
 }
 .site-header-nav a {
 	color: #666666;
+	transition: color .15s cubic-bezier(.33,.66,.66,1);
 }
 .site-header-nav a:hover {
 	color: black;
+	transition: color .15s cubic-bezier(.33,.66,.66,1);
 }
 
 /* LEAD IMAGE */
