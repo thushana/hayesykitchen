@@ -119,6 +119,16 @@ hr {
 .post-text p {
 	width: 75%;
 }
+.post-text-body a, .post-text-body a:hover {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 2px solid rgba(0,0,0, .25);
+    box-shadow: inset 0 -2px 0 rgba(0,0,0, .25);
+    transition: background .15s cubic-bezier(.33,.66,.66,1);
+}
+.post-text-body a:hover{
+    background-color: rgba(0,0,0, .15)
+}
 
 /* POST RECIPE */
 .post-text-recipe {
