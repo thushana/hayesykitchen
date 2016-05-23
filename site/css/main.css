@@ -151,6 +151,10 @@ hr {
 .post-text-recipe p {
 	padding-bottom: 0px;
 }
+.post-mainrail img {
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
 
 /* SPONSORED */
 .sponsored {
