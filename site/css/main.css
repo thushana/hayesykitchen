@@ -38,7 +38,7 @@ hr {
 }
 .site-header-nav {
 	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	letter-spacing: 3px;
 }
 .site-header-nav-1 {
@@ -77,6 +77,10 @@ hr {
 	border-left: 2px solid;
 	opacity: .25;
 }
+.post-mainrail {
+	padding-left: 10%;
+	padding-left: 10%;
+}
 .post-mainrail img {
 	width="100%";
 	height="auto";
@@ -92,19 +96,19 @@ hr {
 }
 .post-text-headline {
 	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
-	font-size: 550%;
+	font-size: 55px;
 	font-weight: 900;
 	color: black;
 	letter-spacing: -1px;
 }
 .post-text-description {
 	font-family: "skolar", "georgia", serif;
-	line-height: 40px;
+	line-height: 30px;
 	letter-spacing: -0.072px;
-	font-size: 40px;
+	font-size: 25px;
 	font-weight: 100;
 	color: rgba(0, 0, 0, .8);
-	width: 75%;
+	width: 100%;
 }
 .post-text-dateline {
 	font-family: "brandon-grotesque", "Helvetica Neue", "helvetica", "arial", sans-serif;
@@ -251,7 +255,21 @@ hr {
 	.site-header-logo {
 		width: auto;
 		height: 125px;
-	}	
+	}
+	
+	.post-text-headline {
+		font-size: 95px;
+	}
+	.post-mainrail {
+		padding-left: 0%;
+		padding-left: 0%;
+	}
+	
+	.post-text-description {
+		line-height: 40px;
+		font-size: 40px;
+		width: 75%;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
